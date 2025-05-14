@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+
+# Environment files
+.env
+.env.*
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data/output
+Local/
+API/transcript/
+
+# Ignore model weights or large files (add patterns as needed)
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.tflite
+*.onnx
+
+# Ignore logs
+*.log
+
+# Ignore test outputs
+*.out
+*.tmp
+*.test 
